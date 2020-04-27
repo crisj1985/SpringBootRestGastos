@@ -4,7 +4,7 @@ import java.util.List;
 
 import modelo.Cliente;
 
-public interface ClienteService {
+public interface IClienteService {
 	
 	Cliente create(Cliente cli);
 	Cliente update(Cliente cli);
